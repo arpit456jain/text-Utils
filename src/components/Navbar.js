@@ -1,4 +1,4 @@
-// rfc
+  // rfc
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -15,13 +15,6 @@ export default function Navbar(props) {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/about">{props.aboutText}</a>
-        </li>
-        
-        <li className="nav-item">
-          <a className="nav-link disabled" href="/">Disabled</a>
         </li>
       </ul>
       <div>
